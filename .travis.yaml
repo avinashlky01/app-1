@@ -21,4 +21,4 @@ deploy:
   skip-cleanup: true
   gitup-tocken: $GITHUB_TOKEN
   on:
-    branch: gh-pages 
+    branch: master 
