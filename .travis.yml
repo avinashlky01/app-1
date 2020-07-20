@@ -16,9 +16,9 @@ script:
   - python test
   - python run
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  gitup-tocken: $GITHUB_TOKEN
-  on:
-    branch: master 
+# deploy:
+#   provider: pages
+#   skip-cleanup: true
+#   gitup-tocken: $GITHUB_TOKEN
+#   on:
+#     branch: master 
