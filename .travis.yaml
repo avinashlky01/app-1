@@ -10,7 +10,7 @@ python:
   - '3.6'
  
 install:
-   - python
+  - python
 
 script:
   - python test
