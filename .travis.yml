@@ -16,9 +16,25 @@ script:
   - python test
   - python run
 
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.travis.yml
+deploy:
+  provider: pages
+  skip-cleanup: true
+  gitup-tocken: $GITHUB_TOKEN
+  on:
+    branch: master 
+========
+>>>>>>> b5ca29f93ef57fb5b9c63fb696f5b58387b6a3ed
 # deploy:
 #   provider: pages
 #   skip-cleanup: true
 #   gitup-tocken: $GITHUB_TOKEN
 #   on:
+<<<<<<< HEAD
 #     branch: master 
+=======
+#     branch: master 
+>>>>>>>> b5ca29f93ef57fb5b9c63fb696f5b58387b6a3ed:.travis.yaml
+>>>>>>> b5ca29f93ef57fb5b9c63fb696f5b58387b6a3ed
